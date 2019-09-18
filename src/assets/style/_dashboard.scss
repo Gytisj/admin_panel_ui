@@ -1,0 +1,80 @@
+.total_info {
+    margin-left: $logo-width;
+    &_whole {
+        margin: 0 10px 0 10px;
+    }
+
+    &_container {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_div {
+        height: 120px;
+        flex-grow: 1;
+        margin: 0 10px 0 10px;
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 3px;
+        box-shadow: $box-shadow;
+
+        ._circle {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            margin-left: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            svg {
+                fill: white;
+            }
+            &_c1 {
+                background: rgb(149, 200, 148);
+            }
+            &_c2 {
+                background: $main-color;
+            }
+            &_c3 {
+                background: rgb(228, 148, 151);
+            }
+            &_c4 {
+                background: rgb(167, 102, 190);
+            }
+        }
+        
+        &_chart {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            p {
+                margin: 0;
+                color: rgb(121, 121, 121);
+                margin-right: 15px;
+            }
+            .words {
+                font-size: 12px;
+                padding-top: 5px;
+            }
+            .numbers {
+                font-size: 23px;
+                font-weight: bold;
+            }
+        }
+    }
+    &_title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 10px 0 10px;
+        .dashboard {
+            color: rgb(121, 121, 121);
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+

@@ -1,3 +1,19 @@
+@import '_variables';
+@import '_navbar' ;
+@import '_sidenav';
+@import '_dashboard';
+@import '_fonts';
 body {
-    background-color: aqua;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #ebebeb;
+}
+svg {
+    width: 24px;
+    height: 24px;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
